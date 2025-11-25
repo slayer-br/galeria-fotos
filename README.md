@@ -13,7 +13,7 @@ Este é um projeto de uma galeria de fotos simples, construído com Next.js, Rea
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/galeria-fotos.git
+    git clone https://github.com/slayer-br/galeria-fotos.git
     ```
 2.  **Instale as dependências:**
     ```bash
