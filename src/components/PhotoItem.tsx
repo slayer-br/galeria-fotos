@@ -1,6 +1,6 @@
 import { Photo } from '@/src/types/Photo';
 import Image from "next/image";
-import imageLoader from '@/src/utils/imageLoader'; // Importar o imageLoader
+// import imageLoader from '@/src/utils/imageLoader'; // Remover este import
 
 type Props = {
   photo: Photo;
@@ -14,7 +14,7 @@ export const PhotoItem = ({ photo, onClick }: Props) => {
         alt={photo.id.toString()}
         fill
         className="object-cover"
-        loader={imageLoader} // Adicionar a prop loader
+        // loader={imageLoader} // Remover esta prop
       />
     </div>
   );

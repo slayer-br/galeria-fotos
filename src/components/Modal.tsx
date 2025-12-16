@@ -1,5 +1,5 @@
 import Image from "next/image";
-import imageLoader from '@/src/utils/imageLoader'; // Importar o imageLoader
+// import imageLoader from '@/src/utils/imageLoader'; // Remover este import
 
 type Props = {
   image: string;
@@ -18,7 +18,7 @@ export const Modal = ({ image, closeModal }: Props) => {
             alt="Imagem em tela cheia"
             fill
             className="object-contain"
-            loader={imageLoader} // Adicionar a prop loader
+            // loader={imageLoader} // Remover esta prop
           />
         </div>
       </div>
