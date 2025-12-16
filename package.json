@@ -2,7 +2,6 @@
   "name": "galeria-fotos",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://slayer-br.github.io/galeria-fotos",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
