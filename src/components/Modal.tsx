@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import imageLoader from '@/src/utils/imageLoader'; // Remover este import
 
 type Props = {
   image: string;
@@ -14,11 +13,10 @@ export const Modal = ({ image, closeModal }: Props) => {
       >
         <div className="relative w-full h-full">
           <Image
-            src={image}
+            src={image} // Usar a URL diretamente
             alt="Imagem em tela cheia"
             fill
             className="object-contain"
-            // loader={imageLoader} // Remover esta prop
           />
         </div>
       </div>
