@@ -24,7 +24,7 @@ const Page = () => {
 
   return (
     <div className="container max-w-5xl mx-auto px-2 py-4">
-      <h1 className="text-center text-3xl font-bold my-10">
+      <h1 className="text-center text-3xl font-bold my-10 text-red-500">
         Fotos Intergalácticas
       </h1>
       <section className="container max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

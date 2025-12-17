@@ -1,5 +1,4 @@
 import { Photo } from '@/src/types/Photo';
-import Image from "next/image";
 
 type Props = {
   photo: Photo;
@@ -7,12 +6,11 @@ type Props = {
 };
 export const PhotoItem = ({ photo, onClick }: Props) => {
   return (
-    <div onClick={onClick} className='cursor-pointer hover:opacity-80 relative'>
-      <Image
-        src={photo.url} // Usar a URL diretamente
+    <div onClick={onClick} className='cursor-pointer hover:opacity-80 relative h-48 overflow-hidden'>
+      <img
+        src={photo.url}
         alt={photo.id.toString()}
-        fill
-        className="object-cover"
+        className="w-full h-full object-cover"
       />
     </div>
   );
