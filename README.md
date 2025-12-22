@@ -23,7 +23,12 @@ Este é um projeto de uma galeria de fotos simples, construído com Next.js, Rea
     ```bash
     npm run dev
     ```
-    Abra [http://localhost:3000](http://localhost:3000) em seu navegador para ver o resultado.
+    Abra [http://localhost:3000/galeria-fotos](http://localhost:3000/galeria-fotos) em seu navegador para ver o resultado.
+
+## Deploy
+
+O deploy é realizado automaticamente via **GitHub Actions** sempre que há um push na branch `main`.
+O site está disponível em: [https://slayer-br.github.io/galeria-fotos/](https://slayer-br.github.io/galeria-fotos/)
 
 ## Scripts Disponíveis
 
