@@ -2,7 +2,7 @@
 
 ![Demonstração do Projeto](/galeria-fotos/assets/galeria-fotos-desktop.gif)
 
-Este é um projeto de uma galeria de fotos simples, construído com Next.js, React e TypeScript, e estilizado com Tailwind CSS. O projeto exibe uma grade de imagens e, ao clicar em uma delas, a imagem é exibida em um modal.
+Este é um projeto de uma galeria de fotos simples, construído com Next.js, React e TypeScript, e estilizado com Tailwind CSS. O projeto exibe uma grade de imagens e, ao clicar em uma delas, a imagem é exibida em um modal
 
 ## Tecnologias Utilizadas
 
